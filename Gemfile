@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'puma'
 gem 'figaro'
 gem 'twitter'
+gem 'jquery-turbolinks'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
