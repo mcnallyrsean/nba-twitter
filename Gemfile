@@ -13,6 +13,7 @@ gem 'puma'
 gem 'figaro'
 gem 'twitter'
 gem 'jquery-turbolinks'
+gem "uikit-sass-rails"
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
