@@ -22,6 +22,6 @@ teams.each do |team|
     handle: team.screen_name,
     twitter_id: team.id,
     url: team.url,
-    profile_image_url: team.profile_image_url
+    profile_image_url: team.profile_image_uri_https(size = :original)
     )
 end

@@ -1,0 +1,10 @@
+<h1>NBA Teams</h1>
+<% @team_accounts.each do |team| %>
+  <img src="<%= team.profile_image_url %>">
+  <h3><%= link_to "/team_accounts/#{team.id}"  %></h3>
+  <li>
+    <ul><%= team.description %></ul>
+    <ul>@<%= team.handle %></ul>
+    <ul><a href="<%= team.url %>" target="_blank">Jump to Twitter</a></ul>
+  </li>
+<% end %>
